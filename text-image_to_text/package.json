@@ -1,0 +1,17 @@
+{
+  "name": "text-image_to_text",
+  "version": "1.0.0",
+  "description": "text/image to text",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Umunna",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security"
+  }
+}
